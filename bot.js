@@ -1,14 +1,15 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+    console.log('I am ready!');
 });
 
-client.on('message', msg => {
-  if (msg.content === 'meme') {
-    msg.reply('Canalul lui Wizz e un meme');
-  }
+client.on('message', message => {
+    if (message.content === 'xd') {
+    	message.reply('xdd');
+  	}
 });
 
-client.login('process.env.BOT.TOKEN');
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
