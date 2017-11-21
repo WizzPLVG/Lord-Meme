@@ -1,12 +1,14 @@
 {
   "name": "Lord Meme",
-  "description": "Sclavul lui wizz",
-  "version": "1.0",
+  "version": "1.0.0",
+  "description": "Sclavul lui Wizz",
   "main": "bot.js",
-  "scripts": {
+    "scripts": {
     "start": "node bot.js"
   },
+  "author": "wizz",
+  "license": "XD",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.js": "^11.2.1"
   }
+}
